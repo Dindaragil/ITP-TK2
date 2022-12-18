@@ -127,7 +127,7 @@ public class TugasKelompok2 {
             Scanner keyboard = new Scanner(System.in);
             System.out.printf("Anda ingin mengulang [Y/N] : ");
             lagi = keyboard.nextLine();
-            if (lagi.equals("t")) {
+            if (lagi.equals("n")) {
                 System.out.println("Yah, kita belajar lagi lain kali ya!");
                 ulang = false;
             }
